@@ -32,7 +32,7 @@ services:
         container_name: nginx
         image: nginx:latest
         ports:
-             - "80:80"
+             - "8080:80"
         volumes:
              - ./www:/www  #home diretory
              - ./nginx/conf.d:/etc/nginx/conf.d
