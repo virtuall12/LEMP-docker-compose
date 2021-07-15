@@ -2,7 +2,7 @@
 
 1. docker 와 docker-compose 를 설치합니다.
 
-2. 소스를 다운받습니다. git clone https://github.com/minotech/LEMP_docker.git 
+2. 소스를 다운받습니다. git clone https://github.com/virtuall12/Nginx-php-fpm-mariaDB-docker-compose.git
 
 3. www 웹폴더의 소유자를 /etc/passwd 파일안에 있는 사용자중에 1000번으로 되어 있는 이름으로 변경합니다. 
   ex) ftpuser:x:1000:1000:ftpuser:/home/ftpuser:/bin/bash : /etc/passwd 파일 내용이 이렇게 되어있으면 다음 명령어를 실행합니다.
